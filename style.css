@@ -224,8 +224,13 @@ a {
 
 .filter-button:hover {
     background-color: var(--primary-color);
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: white;
+}
+
+.filter-button:hover .fas {
+
+    background-color: var(--border);
 }
 
 @media screen and (max-width: 1025px) {
@@ -737,6 +742,10 @@ a {
 
 @media (min-width: 2550px) {
     h2 {
-        font-size: x-large !important;
+        font-size: large !important;
+    }
+
+    .fas {
+        margin-top: 1rem;
     }
 }
