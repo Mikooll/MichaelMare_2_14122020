@@ -54,11 +54,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 3rem;
 }
+
 
 .logo img {
     width: 5rem;
+    margin-top: 3rem;
 }
 
 .menu {
@@ -75,10 +76,11 @@ a {
     display: inline-block;
     padding: .5rem;
     color: var(--primary-color);
+    padding-top: 3rem;
 }
 
 .menu li:hover {
-    border-top: var(--primary-color) solid 5px;
+    border-top: var(--primary-color) solid 3px;
 }
 
 .menu-checkbox {
@@ -743,9 +745,5 @@ a {
 @media (min-width: 2550px) {
     h2 {
         font-size: large !important;
-    }
-
-    .fas {
-        margin-top: 1rem;
     }
 }
