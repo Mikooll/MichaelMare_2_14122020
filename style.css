@@ -436,7 +436,7 @@ a {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 618px) {
     .hebergement_images {
         width: auto;
     }
