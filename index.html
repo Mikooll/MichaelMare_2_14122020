@@ -21,14 +21,23 @@
             </div>
             <nav class="main_nav">
                 <div class="nav_wrapper">
-                    <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
-                    <label for="menu-checkbox" class="menu-toggle">&equiv; Menu</label>
-                    <ul class="menu">
+                    <ul class="menu nav-large">
                         <li><a href="#hostels">Hébergements</a></li>
                         <li><a href="#activity">Activités</a></li>
                         <li><a href="#">S'inscrire</a></li>
                     </ul>
+                    <ul class="menu nav-small1">
+                        <li>S'inscrire</li>
+                    </ul>
                 </div>
+            </nav>
+        </div>
+        <div>
+            <nav class="main-nav small-nav">
+                <ul class="menu nav-small2">
+                    <li><a href="#hostels">Hébergements</a></li>
+                    <li><a href="#activity">Activités</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -57,21 +66,23 @@
 
         <div class="filter_container">
             <h2 class="filter_container_title">Filtres</h2>
-            <div class="filter-button">
-                <i class="fas fa-money-bill-wave"></i>
-                <p>Économique</p>
-            </div>
-            <div class="filter-button">
-                <i class="fas fa-child"></i>
-                <p>Familial</p>
-            </div>
-            <div class="filter-button">
-                <i class="fas fa-heart"></i>
-                <p>Romantique</p>
-            </div>
-            <div class="filter-button">
-                <i class="fas fa-dog"></i>
-                <p>Animaux autorisés</p>
+            <div class="filters">
+                <div class="filter-button">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <p>Économique</p>
+                </div>
+                <div class="filter-button">
+                    <i class="fas fa-child"></i>
+                    <p>Familial</p>
+                </div>
+                <div class="filter-button">
+                    <i class="fas fa-heart"></i>
+                    <p>Romantique</p>
+                </div>
+                <div class="filter-button">
+                    <i class="fas fa-dog"></i>
+                    <p>Animaux autorisés</p>
+                </div>
             </div>
         </div>
 
@@ -82,7 +93,6 @@
     </section>
 
     <section class="hostels" id="hostels">
-        <h1 style="display: none;">Hébergement à Marseille</h1>
         <article class="hebergement">
             <h2>Hébergements à Marseille</h2>
             <div class="hebergement_container">
@@ -256,7 +266,7 @@
                 </div>
                 <h3 class="activity_images_title">Parc National des Calanques</h3>
             </div>
-            <div class="picture_column">
+            <div class="picture_column column2">
                 <div class="activity_container picture5 box_shadow">
                     <div class="activity_images">
                         <img class="activity_images_image image5"
