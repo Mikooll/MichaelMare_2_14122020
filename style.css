@@ -669,11 +669,32 @@ a {
     object-fit: cover;
 }
 
-@media screen and (min-width: 1441px) {
+@media (min-width: 1441px) {
     .popular_lodging_images {
         width: 12rem;
         height: 14rem;
     }
+}
+
+@media (min-width: 1024px) and (max-width:1439px) {
+    .popular_lodging {
+        border: 4px solid white;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin: 1rem .5rem;
+    }
+
+    .popular_lodging_images {
+        border-top-left-radius: 0.625rem;
+        border-top-right-radius: 0.625rem;
+        border-bottom-left-radius: 0;
+        height: 5rem;
+        width: auto;
+        object-fit: cover;
+    }
+
 }
 
 /* Activity Section */
